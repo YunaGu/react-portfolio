@@ -1,6 +1,7 @@
 import "./about.css"
 import Photo from "../../img/Photo.JPG"
-import Football from '../../img/Football.png'
+import { IoFootballOutline } from "react-icons/io5"
+import { BsAward } from "react-icons/bs"
 
 const About = () => {
   return (
@@ -25,11 +26,11 @@ const About = () => {
             </ul>
             <div className="a-award">
                 <div className="a-award-wrapper">
-                    <img src={Football} alt="" className="a-award-img" />
+                    <IoFootballOutline className="a-award-img" />
                     <div className="a-award-texts">7th in Shanghai University Football League 2021</div>
                 </div>
                 <div className="a-award-wrapper">
-                    <img src={Football} alt="" className="a-award-img" />
+                    <BsAward className="a-award-img" />
                     <div className="a-award-texts">Third class scholarships, Shanghai Maritime University</div>
                 </div>
             </div>

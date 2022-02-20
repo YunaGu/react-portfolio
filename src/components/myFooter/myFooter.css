@@ -1,0 +1,10 @@
+.f-text {
+  height: 50px;
+  text-align: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 1px solid #59b256;
+  border-bottom: 1px solid #59b256;
+}

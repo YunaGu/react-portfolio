@@ -12,18 +12,18 @@
 
 .c-wrapper {
   padding-left: 50px;
-  display: flex;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .c-left {
-  padding-top: 50px;
   padding-left: 50px;
   flex: 1;
 }
 
 .c-right {
-  padding-top: 50px;
   padding-right: 50px;
   flex: 1;
   flex-direction: column;
@@ -33,23 +33,28 @@
 
 .c-title {
   font-size: 60px;
-  width: 80%;
+  font-weight: 400;
 }
 
-.c-info-item {
+.c-info-text {
+  font-size: 30px;
+  font-weight: 300;
   display: flex;
   align-items: center;
   margin: 50px 0;
-  font-weight: 300;
   width: 70%;
 }
 
-.c-icon {
-  width: 30px;
-  height: 30px;
-  margin-right: 20px;
+.c-info-icons {
+  display: flex;
+  flex-direction: row;
 }
 
+.c-info-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
 /* .c-desc {
   font-weight: 200;
 } */

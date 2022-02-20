@@ -2,6 +2,8 @@ import "./contract.css"
 import Football from '../../img/Football.png'
 import { useRef, useState } from "react"
 import emailjs from '@emailjs/browser';
+import { FaEnvelopeSquare, FaInstagramSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
+
 
 
 const Contract = () => {
@@ -23,17 +25,17 @@ const Contract = () => {
           <div className="c-bg"></div>
           <div className="c-wrapper">
               <div className="c-left">
-                  <h1 className="c-title">Say Something to Me</h1>
+                  <h1 className="c-title">Touch base</h1>
                   <div className="c-info">
-                      <div className="c-info-item">
-                          <img src={Football} alt="" className="c-icon" />GuY36@cardiff.ac.uk
-                      </div>
-                      <div className="c-info-item">
-                          <img src={Football} alt="" className="c-icon" />GuY36@cardiff.ac.uk
-                      </div>
-                      <div className="c-info-item">
-                          <img src={Football} alt="" className="c-icon" />GuY36@cardiff.ac.uk
-                      </div>
+                    <div className="c-info-text">
+                        I'd love to hear from you
+                    </div>
+                    <div className="c-info-icons">
+                        <FaEnvelopeSquare className="c-info-icon"/>
+                        <FaInstagramSquare className="c-info-icon"/>
+                        <FaGithubSquare className="c-info-icon"/>
+                        <FaLinkedin className="c-info-icon"/>
+                    </div>
                   </div>
               </div>
               <div className="c-right">

@@ -16,7 +16,7 @@
 }
 
 .i-left-wrapper {
-  padding: 100px;
+  width: 80%;
   /* background-color: #777; */
   height: 50%;
   display: flex;

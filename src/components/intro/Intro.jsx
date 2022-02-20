@@ -17,14 +17,13 @@ const intro = () => {
             </div>
           </div>
           <div className="i-desc">
-            <p>Currently, I'm a postgraduate student @ <a href="https://www.cardiff.ac.uk/computer-science">Cardiff COMSC</a>. </p>
-            <p>A designer who doesn't play football and the guitar is not a good programmer, hahaha. Welcome to my website : ).</p>
+            <p>Currently I'm a postgraduate student @ <a href="https://www.cardiff.ac.uk/computer-science">Cardiff COMSC</a>. Welcome to my website :).</p>
           </div>
         </div>
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        {/* <img src={Yungu} alt="" className="i-img" /> */}
+        <img src={Yungu} alt="" className="i-img" />
       </div>
     </div>
   )

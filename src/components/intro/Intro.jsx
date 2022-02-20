@@ -1,4 +1,5 @@
-import "./intro.css"
+import "./intro.css";
+import Yungu from "../../img/Yungu.png"
 
 const intro = () => {
   return (
@@ -21,7 +22,10 @@ const intro = () => {
           </div>
         </div>
       </div>
-      <div className="i-right">right</div>
+      <div className="i-right">
+        <div className="i-bg"></div>
+        {/* <img src={Yungu} alt="" className="i-img" /> */}
+      </div>
     </div>
   )
 }

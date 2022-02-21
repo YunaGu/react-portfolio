@@ -6,7 +6,7 @@
 .c-bg {
   width: 20px;
   height: 100%;
-  background-color: #ffa931;
+  background-color: #f7a01b;
   position: absolute;
 }
 
@@ -82,7 +82,7 @@ textarea {
 button {
   border: none;
   padding: 15px;
-  background-color: #ffa931;
+  background-color: #f7a01b;
   color: #fff;
   font-weight: 500;
   cursor: pointer;

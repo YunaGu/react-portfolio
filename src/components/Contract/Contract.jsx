@@ -1,5 +1,4 @@
 import "./contract.css"
-import Football from '../../img/Football.png'
 import { useRef, useState } from "react"
 import emailjs from '@emailjs/browser';
 import { FaEnvelopeSquare, FaInstagramSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
@@ -31,19 +30,27 @@ const Contract = () => {
                         I'd love to hear from you
                     </div>
                     <div className="c-info-icons">
-                        <FaEnvelopeSquare className="c-info-icon"/>
-                        <FaInstagramSquare className="c-info-icon"/>
-                        <FaGithubSquare className="c-info-icon"/>
-                        <FaLinkedin className="c-info-icon"/>
+                        <a href="mailto:GuY36@cardiff.ac.uk" t>
+                            <FaEnvelopeSquare className="c-info-icon"/>
+                        </a>
+                        <a href="https://www.instagram.com/yyyun_k/">
+                            <FaInstagramSquare className="c-info-icon"/>
+                        </a>
+                        <a href="https://github.com/YunaGu">
+                            <FaGithubSquare className="c-info-icon"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/yun-gu-0932b11a5/">
+                            <FaLinkedin className="c-info-icon"/>
+                        </a>
                     </div>
                   </div>
               </div>
               <div className="c-right">
                   <p className="c-desc"><strong>Do you have any questions or suggestions?</strong> Always feel free to contract me, please.</p>
                   <form ref={formRef} onSubmit={handleSubmit}>
-                      <input type="text" placeholder="Name" name="user_name"/>
+                      <input type="text" placeholder="Your name" name="user_name"/>
                       <input type="text" placeholder="Subject" name="user_subject"/>
-                      <input type="text" placeholder="Email" name="user_email"/>
+                      <input type="text" placeholder="Your Email" name="user_email"/>
                       <textarea name="message"  placeholder="Message" rows="5"></textarea>
                       <button>Submit</button>
                       {done && "Thank you..."}

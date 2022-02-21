@@ -1,5 +1,9 @@
 import "./intro.css";
-import Yungu from "../../img/Yungu.png"
+// import Yungu from "../../img/Yungu.png"
+import { MdOutlineDesignServices, MdOutlineSportsSoccer, MdOutlinePiano } from "react-icons/md"
+import { HiCode } from "react-icons/hi"
+
+
 
 const intro = () => {
   return (
@@ -10,10 +14,22 @@ const intro = () => {
           <h1 className="i-name">Yun Gu</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Web Developer</div>
-              <div className="i-title-item">UI/UX Designer</div>
-              <div className="i-title-item">Footballer</div>
-              <div className="i-title-item">Musician</div>
+              <div className="i-title-item">
+                <HiCode/>
+                <div className="i-title-text">Web Developer</div>
+              </div>
+              <div className="i-title-item">
+                <MdOutlineDesignServices/>
+                <div className="i-title-text">UI/UX Designer</div>
+              </div>
+              <div className="i-title-item">
+                <MdOutlineSportsSoccer/>
+                <div className="i-title-text">Footballer</div>
+              </div>
+              <div className="i-title-item">
+                <MdOutlinePiano/>
+                <div className="i-title-text">Musician</div>
+              </div>
             </div>
           </div>
           <div className="i-desc">
@@ -23,7 +39,7 @@ const intro = () => {
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        <img src={Yungu} alt="" className="i-img" />
+        {/* <img src={Yungu} alt="" className="i-img" /> */}
       </div>
     </div>
   )

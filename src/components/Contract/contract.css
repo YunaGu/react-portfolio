@@ -6,7 +6,7 @@
 .c-bg {
   width: 20px;
   height: 100%;
-  background-color: #59b256;
+  background-color: #65d4ee;
   position: absolute;
 }
 
@@ -54,13 +54,12 @@
   width: 30px;
   height: 30px;
   margin-right: 10px;
+  color: #000;
 }
-/* .c-desc {
-  font-weight: 200;
-} */
 
-form {
-  margin-top: 20px;
+.c-info-icon:hover {
+  color: #888;
+  cursor: pointer;
 }
 
 input {
@@ -83,7 +82,7 @@ textarea {
 button {
   border: none;
   padding: 15px;
-  background-color: #59b256;
+  background-color: #65d4ee;
   color: #fff;
   font-weight: 500;
   cursor: pointer;

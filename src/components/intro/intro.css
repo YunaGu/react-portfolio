@@ -59,23 +59,26 @@
   height: 50px;
   font-size: 30px;
   font-weight: bold;
-  color: #59b256;
+  color: #65d4ee;
   /* background-color: #777; */
   display: flex;
   align-items: center;
 }
 
+.i-title-text {
+  margin-left: 10px;
+}
 a {
   text-decoration: none;
-  color: #59b256;
+  color: #65d4ee;
 }
 
 a:hover {
-  color: #95d393;
+  color: #fac12f;
 }
 
 a:visited {
-  color: #5681b2;
+  color: #9de89c;
 }
 
 .i-img {
@@ -89,7 +92,7 @@ a:visited {
 
 .i-bg {
   clip-path: polygon(100% 0%, 100% 55%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  background-color: #59b256;
+  background-color: #65d4ee;
   width: 100%;
   height: 100%;
   position: absolute;

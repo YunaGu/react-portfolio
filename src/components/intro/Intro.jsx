@@ -1,5 +1,5 @@
 import "./intro.css";
-// import Yungu from "../../img/Yungu.png"
+import Bulb from "../../img/Bulb.png"
 import { MdOutlineDesignServices, MdOutlineSportsSoccer, MdOutlinePiano } from "react-icons/md"
 import { HiCode } from "react-icons/hi"
 
@@ -33,13 +33,13 @@ const intro = () => {
             </div>
           </div>
           <div className="i-desc">
-            <p>Currently I'm a postgraduate student @ <a href="https://www.cardiff.ac.uk/computer-science">Cardiff COMSC</a>. Welcome to my website :).</p>
+            <p>Currently I'm a postgraduate student @ <a href="https://www.cardiff.ac.uk/computer-science" target="_blank" rel="noreferrer">Cardiff COMSC</a>. Welcome to my website :).</p>
           </div>
         </div>
       </div>
       <div className="i-right">
         <div className="i-bg"></div>
-        {/* <img src={Yungu} alt="" className="i-img" /> */}
+        <img src={Bulb} alt="" className="i-img" />
       </div>
     </div>
   )

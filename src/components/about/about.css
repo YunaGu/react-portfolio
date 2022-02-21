@@ -1,6 +1,9 @@
 .a {
   display: flex;
   height: 100vh;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .a-left {
@@ -14,22 +17,20 @@
 
 .a-right {
   flex: 1;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .a-right-wrapper {
   width: 80%;
-  height: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .a-card.bg {
   position: absolute;
   top: 50px;
   left: 50px;
-  background-color: #888;
+  background-color: #b9ac92;
 }
 
 .a-card {
@@ -38,7 +39,6 @@
   border-radius: 30px;
   position: relative;
   overflow: hidden;
-  background-color: green;
 }
 
 .a-img {
@@ -64,7 +64,6 @@
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  align-items: left;
   justify-content: space-between;
 }
 
@@ -90,7 +89,10 @@
     margin: 50px 0;
   }
 
+  .a-left {
+    margin-bottom: 50px;
+  }
   .a-right-wrapper {
-    margin-top: 100px;
+    margin: 50px auto;
   }
 }

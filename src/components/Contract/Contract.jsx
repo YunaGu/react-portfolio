@@ -1,13 +1,15 @@
 import "./contract.css"
-import { useRef, useState } from "react"
+import { useRef, useState, useContext } from "react"
 import emailjs from '@emailjs/browser';
 import { FaEnvelopeSquare, FaInstagramSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";
-
+import { ThemeContext } from '../../context'
 
 
 const Contract = () => {
     const formRef = useRef()
     const [done, setDone] = useState(false)
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -31,16 +33,16 @@ const Contract = () => {
                     </div>
                     <div className="c-info-icons">
                         <a href="mailto:GuY36@cardiff.ac.uk" t>
-                            <FaEnvelopeSquare className="c-info-icon"/>
+                            <FaEnvelopeSquare className="c-info-icon" style={{color:darkMode?"#b9ac92":"#000"}}/>
                         </a>
                         <a href="https://www.instagram.com/yyyun_k/">
-                            <FaInstagramSquare className="c-info-icon"/>
+                            <FaInstagramSquare className="c-info-icon" style={{color:darkMode?"#b9ac92":"#000"}}/>
                         </a>
                         <a href="https://github.com/YunaGu">
-                            <FaGithubSquare className="c-info-icon"/>
+                            <FaGithubSquare className="c-info-icon" style={{color:darkMode?"#b9ac92":"#000"}}/>
                         </a>
                         <a href="https://www.linkedin.com/in/yun-gu-0932b11a5/">
-                            <FaLinkedin className="c-info-icon"/>
+                            <FaLinkedin className="c-info-icon" style={{color:darkMode?"#b9ac92":"#000"}}/>
                         </a>
                     </div>
                   </div>
@@ -48,10 +50,10 @@ const Contract = () => {
               <div className="c-right">
                   <p className="c-desc"><strong>Do you have any questions or suggestions?</strong> Always feel free to contract me, please.</p>
                   <form ref={formRef} onSubmit={handleSubmit}>
-                      <input type="text" placeholder="Your name" name="user_name" required/>
-                      <input type="text" placeholder="Subject" name="user_subject" required/>
-                      <input type="text" placeholder="Your Email" name="user_email" required/>
-                      <textarea name="message"  placeholder="Message" rows="5" required></textarea>
+                      <input style={{backgroundColor:darkMode?"#b9ac92":"#fff"}} type="text" placeholder="Your name" name="user_name" required/>
+                      <input style={{backgroundColor:darkMode?"#b9ac92":"#fff"}} type="text" placeholder="Subject" name="user_subject" required/>
+                      <input style={{backgroundColor:darkMode?"#b9ac92":"#fff"}} type="text" placeholder="Your Email" name="user_email" required/>
+                      <textarea style={{backgroundColor:darkMode?"#b9ac92":"#fff"}} name="message"  placeholder="Message" rows="5" required></textarea>
                       <button>Submit</button>
                       {done && "Thank you..."}
                   </form>

@@ -9,7 +9,6 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  /* background-color: red; */
   height: 100%;
 }
 
@@ -39,6 +38,7 @@
   border-radius: 30px;
   position: relative;
   overflow: hidden;
+  background-color: green;
 }
 
 .a-img {
@@ -81,4 +81,16 @@
 
 .a-award-texts {
   margin-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .a {
+    flex-direction: column;
+    height: 100%;
+    margin: 50px 0;
+  }
+
+  .a-right-wrapper {
+    margin-top: 100px;
+  }
 }

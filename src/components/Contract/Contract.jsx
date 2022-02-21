@@ -48,10 +48,10 @@ const Contract = () => {
               <div className="c-right">
                   <p className="c-desc"><strong>Do you have any questions or suggestions?</strong> Always feel free to contract me, please.</p>
                   <form ref={formRef} onSubmit={handleSubmit}>
-                      <input type="text" placeholder="Your name" name="user_name"/>
-                      <input type="text" placeholder="Subject" name="user_subject"/>
-                      <input type="text" placeholder="Your Email" name="user_email"/>
-                      <textarea name="message"  placeholder="Message" rows="5"></textarea>
+                      <input type="text" placeholder="Your name" name="user_name" required/>
+                      <input type="text" placeholder="Subject" name="user_subject" required/>
+                      <input type="text" placeholder="Your Email" name="user_email" required/>
+                      <textarea name="message"  placeholder="Message" rows="5" required></textarea>
                       <button>Submit</button>
                       {done && "Thank you..."}
                   </form>

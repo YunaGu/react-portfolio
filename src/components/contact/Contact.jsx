@@ -1,4 +1,4 @@
-import "./contract.css"
+import "./contact.css"
 import { useRef, useState, useContext } from "react"
 import emailjs from '@emailjs/browser';
 import { FaEnvelopeSquare, FaInstagramSquare, FaGithubSquare, FaLinkedin } from "react-icons/fa";

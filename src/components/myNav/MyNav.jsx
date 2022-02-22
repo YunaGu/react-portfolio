@@ -11,9 +11,10 @@ const MyNav = () => {
 		setOpen(!open);
 	};
 
-	// const closeMenu = () => {
-	// 	setOpen(false);
-	// };
+	const closeMenu = () => {
+		setOpen(false);
+	};
+
   return (
     <div className={open?"n active":"n"}>
         <div className={open?"n-left active":"n-left"}>
@@ -25,13 +26,15 @@ const MyNav = () => {
 			</div>
             <ul className={open ? "n-right-items active":"n-right-items"}>
                 <li className="n-right-item">
-                    <a href="#home" className="n-link">Home</a>
+                    <a href="#home" className="normal-link" onClick={closeMenu}>
+                        <p>Home</p>
+                    </a>
                 </li>
                 <li className="n-right-item">
-                    <a href="#about" className="n-link">About</a>
+                    <a href="#about" className="normal-link" onClick={closeMenu}>About</a>
                 </li>
                 <li className="n-right-item">
-                    <a href="#contact" className="n-link">Contact</a>
+                    <a href="#contact" className="normal-link" onClick={closeMenu}>Contact</a>
                 </li>
             </ul>
         </div>

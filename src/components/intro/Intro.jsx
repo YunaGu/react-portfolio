@@ -33,7 +33,7 @@ const intro = () => {
             </div>
           </div>
           <div className="i-desc">
-            <p>Currently I'm a postgraduate student @ <a href="https://www.cardiff.ac.uk/computer-science" target="_blank" rel="noreferrer">Cardiff COMSC</a>. Welcome to my website :).</p>
+            <p>Currently I'm a postgraduate student @ <a href="https://www.cardiff.ac.uk/computer-science" target="_blank" rel="noreferrer" className="normal-link">Cardiff COMSC</a>. Welcome to my website :).</p>
           </div>
         </div>
       </div>

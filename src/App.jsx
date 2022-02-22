@@ -6,6 +6,8 @@ import Toggle from './components/toggle/Toggle'
 import { ThemeContext } from './context'
 import { useContext } from "react"
 import MyNav from './components/myNav/MyNav'
+import Up from './components/up/Up'
+import "./app.css"
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -14,7 +16,10 @@ const App = () => {
   return (
     <div style={{backgroundColor:darkMode?"#222":"#fff", color:darkMode?"#fff":"#222"}}>
         <MyNav/>
-        <Toggle/>
+        <div className="float">
+          <Toggle/>
+          <Up/>
+        </div>
         <Intro/>
         <About/>
         <Contact/>

@@ -4,9 +4,6 @@
   border-radius: 20px;
   border: 1px solid #333;
   background-color: #fff;
-  position: fixed;
-  top: 100px;
-  right: 10px;
   z-index: 999;
   display: flex;
   align-items: center;

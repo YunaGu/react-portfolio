@@ -44,24 +44,31 @@
     display: flex;
   }
 
+  .n.active {
+    display: initial;
+  }
+
   .n-left.active {
     float: left;
   }
 
+  .n-right.active {
+    width: 100%;
+  }
+
   .n-right-items {
-    display: none;
+    display: flex;
     flex-direction: column;
     position: absolute;
     text-align: center;
     width: 100%;
     top: 80px;
-    /* left: -100%; */
+    left: -100%;
     transition: 1s fade out;
   }
 
   .n-right-items.active {
     display: contents;
-    background: transparent;
     height: fit-content;
     left: 0;
     padding-left: 0;
@@ -71,7 +78,7 @@
   }
 
   .n-right-item {
-    padding: 10px 0;
+    padding: 15px 0;
     border-bottom: 1px solid #f7a01b;
   }
 

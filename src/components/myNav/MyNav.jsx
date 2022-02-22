@@ -1,7 +1,7 @@
 import "./myNav.css"
 import React, { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+// import { HashLink as Link } from 'react-router-hash-link';
 import Logo from '../../img/Logo.png';
 
 const MyNav = () => {
@@ -11,27 +11,27 @@ const MyNav = () => {
 		setOpen(!open);
 	};
 
-	const closeMenu = () => {
-		setOpen(false);
-	};
+	// const closeMenu = () => {
+	// 	setOpen(false);
+	// };
   return (
-    <div onClick={handleClick} className={open?"n-active":"n"}>
+    <div className={open?"n active":"n"}>
         <div className={open?"n-left active":"n-left"}>
-            <Link to="/" className="n-logo"/><img src={Logo} alt="" />
+            <a href="/" className="n-logo"><img src={Logo} alt="logo" /></a>
         </div>
-        <div className="n-right">
+        <div className={open?"n-right active":"n-right"}>
             <div onClick={handleClick} className="n-icon">
 				{open ? <FiX /> : <FiMenu />}
 			</div>
             <ul className={open ? "n-right-items active":"n-right-items"}>
                 <li className="n-right-item">
-                    <Link to="/" className="n-link" onClick={closeMenu}/>Home
+                    <a href="#home" className="n-link">Home</a>
                 </li>
                 <li className="n-right-item">
-                    <Link to="/about" className="n-link" onClick={closeMenu}/>About
+                    <a href="#about" className="n-link">About</a>
                 </li>
                 <li className="n-right-item">
-                    <Link to="/contact" className="n-link" onClick={closeMenu}/>Contact
+                    <a href="#contact" className="n-link">Contact</a>
                 </li>
             </ul>
         </div>

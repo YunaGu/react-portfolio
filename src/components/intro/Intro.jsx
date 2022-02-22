@@ -7,7 +7,7 @@ import { HiCode } from "react-icons/hi"
 
 const intro = () => {
   return (
-    <div className="i">
+    <div className="i" id="home">
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, My Name is</h2>

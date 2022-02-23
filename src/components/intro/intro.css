@@ -78,10 +78,10 @@
 
 .i-img {
   width: 80%;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: space-between;
-  object-fit: cover;
+  object-fit: cover; */
   position: absolute;
   bottom: 0;
   background-color: transparent;

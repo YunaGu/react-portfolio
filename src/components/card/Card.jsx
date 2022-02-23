@@ -14,8 +14,11 @@ const Card = ({img, link}) => {
         <div className="ca-circle" style={{backgroundColor:darkMode?"#666":"#fff"}}></div>
         <div className="ca-circle" style={{backgroundColor:darkMode?"#666":"#fff"}}></div>
       </div>
-      <a href={link} target="_blank" rel="noreferrer">
-        <img src={img} alt="" className="ca-img" />
+      <a href={link} target="_blank" rel="noreferrer" className="ca-details">
+        {/* <div className="ca-detail">
+          <button className="ca-de-btn">View Details</button>
+        </div> */}
+        <img src={img} alt="" className="ca-img"/>
       </a>
     </div>
   )

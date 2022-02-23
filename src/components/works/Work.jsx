@@ -4,7 +4,7 @@ import {works} from "../../data"
 
 const Work = () => {
   return (
-      <div className="w">
+      <div className="w" id="work">
           <div className="w-title-wrapper">
             <div className="w-bg"></div>
             <div className="w-title">Works</div>

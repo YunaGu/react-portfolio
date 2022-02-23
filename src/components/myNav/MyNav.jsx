@@ -1,7 +1,6 @@
 import "./myNav.css"
 import React, { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
-// import { HashLink as Link } from 'react-router-hash-link';
 import Logo from '../../img/Logo.png';
 
 const MyNav = () => {
@@ -32,6 +31,9 @@ const MyNav = () => {
                 </li>
                 <li className="n-right-item">
                     <a href="#about" className="normal-link" onClick={closeMenu}>About</a>
+                </li>
+                <li className="n-right-item">
+                    <a href="#work" className="normal-link" onClick={closeMenu}>Work</a>
                 </li>
                 <li className="n-right-item">
                     <a href="#contact" className="normal-link" onClick={closeMenu}>Contact</a>

@@ -8,6 +8,7 @@ import { useContext } from "react"
 import MyNav from './components/myNav/MyNav'
 import Up from './components/up/Up'
 import "./app.css"
+import Work from './components/works/Work'
 
 const App = () => {
   const theme = useContext(ThemeContext);
@@ -22,6 +23,7 @@ const App = () => {
         </div>
         <Intro/>
         <About/>
+        <Work/>
         <Contact/>
         <MyFooter/>
     </div>

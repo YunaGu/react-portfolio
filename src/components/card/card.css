@@ -1,0 +1,35 @@
+.ca {
+  width: 300px;
+  max-height: 300px;
+  min-height: 150px;
+  margin: 20px 10px;
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+.ca-browser {
+  height: 20px;
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 2;
+}
+
+.ca-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 3px;
+}
+
+.ca-img {
+  width: 100%;
+  transition: all 10s ease;
+}
+
+.ca-img:hover {
+  transform: translateY(-100%);
+}

@@ -33,7 +33,7 @@
 }
 
 .w-works {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -42,5 +42,11 @@
 @media screen and (max-width: 480px) {
   .ca-browser {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .w-works {
+    width: 80%;
   }
 }

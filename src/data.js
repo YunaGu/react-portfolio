@@ -4,7 +4,7 @@ export const works = [
     {
         id: 1,
         title:"Protfolio",
-        img:"https://github.com/YunaGu/react-portfolio/blob/master/src/img/photo.JPG?raw=true",
+        img:"https://github.com/YunaGu/react-portfolio/blob/master/src/img/Work.png?raw=true",
         link:"https://github.com/YunaGu/react-portfolio",
     },
     {

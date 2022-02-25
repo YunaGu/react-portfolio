@@ -27,7 +27,7 @@ export const works = [
     },
     {
         id: 5,
-        title:"MindWave Test",
+        title:"BrainWave Test",
         img:"https://github.com/YunaGu/react-portfolio/blob/master/src/img/Test.jpg?raw=true",
         link:"https://github.com/YunaGu/BrainWaveTest",
     },

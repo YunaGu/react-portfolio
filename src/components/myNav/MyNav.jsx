@@ -33,7 +33,7 @@ const MyNav = () => {
                     <a href="#about" className="normal-link" onClick={closeMenu}>About</a>
                 </li>
                 <li className="n-right-item">
-                    <a href="#work" className="normal-link" onClick={closeMenu}>Work</a>
+                    <a href="#work" className="normal-link" onClick={closeMenu}>Works</a>
                 </li>
                 <li className="n-right-item">
                     <a href="#contact" className="normal-link" onClick={closeMenu}>Contact</a>

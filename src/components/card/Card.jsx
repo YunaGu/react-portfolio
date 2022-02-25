@@ -8,8 +8,8 @@ const Card = ({img, title, link}) => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="ca" style={{border:darkMode?"1px solid #333":"1px solid #999"}}>
-      <div className="ca-browser" style={{backgroundColor:darkMode?"#333":"#999"}}>
+    <div className="ca" style={{border:darkMode?"1px solid #333":"1px solid rgb(243,242,242)"}}>
+      <div className="ca-browser" style={{backgroundColor:darkMode?"#333":"rgb(243,242,242)"}}>
         <div className="ca-circle" style={{backgroundColor:darkMode?"#666":"#fff"}}></div>
         <div className="ca-circle" style={{backgroundColor:darkMode?"#666":"#fff"}}></div>
         <div className="ca-circle" style={{backgroundColor:darkMode?"#666":"#fff"}}></div>

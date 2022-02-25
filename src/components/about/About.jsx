@@ -4,6 +4,7 @@ import { IoFootballOutline } from "react-icons/io5"
 import { BsAward } from "react-icons/bs"
 import { ThemeContext } from '../../context'
 import { useContext } from "react"
+import YunGuResume from "../../assets/YunGuResume.pdf"
 
 const About = () => {
     const theme = useContext(ThemeContext);
@@ -11,7 +12,7 @@ const About = () => {
   return (
     <div className="a" id="about">
         <div className="a-left">
-            <div className="a-card bg" style={{backgroundColor:darkMode?"#333":"#999"}}></div>
+            <div className="a-card bg" style={{backgroundColor:darkMode?"#333":"rgb(243,242,242)"}}></div>
             <div className="a-card">
                 <img src={Photo} alt="" className="a-img" />
             </div>
@@ -37,6 +38,9 @@ const About = () => {
                     <BsAward className="a-award-img" />
                     <div className="a-award-texts">Third class scholarship of Shanghai Maritime University, 2020</div>
                 </div>
+            </div>
+            <div className="a-download">
+                <a href={YunGuResume} download className="normal-link" style={{textDecoration: "underline"}}>download Resume</a>
             </div>
             </div>
         </div>

@@ -10,7 +10,6 @@
 
 .ca-browser {
   height: 20px;
-  background-color: rgb(243, 242, 242);
   display: flex;
   align-items: center;
   position: sticky;
@@ -21,25 +20,19 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #fff;
   margin: 3px;
 }
 
 .ca-details {
   position: absolute;
-  /* height: 500px; */
   display: flex;
   flex-direction: column;
 }
 
 .ca-img {
   width: 300px;
-  /* height: 300px; */
-  /* height: fit-content; */
   opacity: 0.5;
-  /* height: 100%; */
   position: relative;
-  /* top: -100%; */
   transition: all 3s ease;
 }
 
@@ -53,7 +46,6 @@
   height: 300px;
   position: relative;
   float: left;
-  /* z-index: 2; */
   display: flex;
   align-items: center;
   justify-content: center;

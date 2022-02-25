@@ -2,12 +2,16 @@ import "./about.css"
 import Photo from "../../img/Photo.JPG"
 import { IoFootballOutline } from "react-icons/io5"
 import { BsAward } from "react-icons/bs"
+import { ThemeContext } from '../../context'
+import { useContext } from "react"
 
 const About = () => {
+    const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="a" id="about">
         <div className="a-left">
-            <div className="a-card bg"></div>
+            <div className="a-card bg" style={{backgroundColor:darkMode?"#333":"#999"}}></div>
             <div className="a-card">
                 <img src={Photo} alt="" className="a-img" />
             </div>

@@ -12,7 +12,7 @@ const Work = () => {
           <p className="w-desc">I'm skilled in software development include both the frontend and the backend. Here are some previous works, some are my course works while most are my personal projects after class.</p>
           <div className="w-works">
               {works.map((item)=>(
-                <Card key={item.id} img={item.img} link={item.link}/>
+                <Card key={item.id} img={item.img} link={item.link} title={item.title}/>
               ))}
           </div>
       </div>

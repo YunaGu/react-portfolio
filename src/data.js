@@ -4,13 +4,13 @@ export const works = [
     {
         id: 1,
         title:"Protfolio",
-        img:"https://github.com/YunaGu/react-portfolio/blob/master/src/img/Work.png?raw=true",
+        img:"https://github.com/YunaGu/react-portfolio/blob/master/src/img/Portfolio.png?raw=true",
         link:"https://github.com/YunaGu/react-portfolio",
     },
     {
         id: 2,
         title:"CRUD",
-        img:"https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/3bbb8b136054655.61f287d1affc7.jpg",
+        img:"https://github.com/YunaGu/react-portfolio/blob/master/src/img/CRUD.png?raw=true",
         link:"https://github.com/YunaGu/CRUD",
     },
     {
@@ -22,13 +22,13 @@ export const works = [
     {
         id: 4,
         title:"Quiz",
-        img:"https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/3bbb8b136054655.61f287d1affc7.jpg",
+        img:"https://github.com/YunaGu/react-portfolio/blob/master/src/img/Quiz.png?raw=true",
         link:"https://github.com/YunaGu/Quiz",
     },
     {
         id: 5,
         title:"MindWave Test",
-        img:"https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/3bbb8b136054655.61f287d1affc7.jpg",
+        img:"https://github.com/YunaGu/react-portfolio/blob/master/src/img/Test.jpg?raw=true",
         link:"https://github.com/YunaGu/BrainWaveTest",
     },
     {

@@ -1,6 +1,6 @@
 ## Introduction
 
-This is my personal website code sources. You could see the result at [yungu.me](https://yungu.me).
+This is my personal website code source. You could see the result at [yungu.me](https://yungu.me).
 
 ### Feature
 
@@ -41,5 +41,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-`yarn eject`

@@ -8,6 +8,11 @@ This is my personal website code source. You could see the result at [yungu.me](
 - Light and night mode (using Context API)
 - send massage (using EmailJS)
 
+![day-pc.png](./day-pc.png)
+![night-pc.png](./night-pc.png)
+![day-mobile.png](./day-mobile.png)
+![night-mobile.png](./night-mobile.png)
+
 ### Technology used
 
 - React
